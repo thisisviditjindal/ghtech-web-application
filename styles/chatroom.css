@@ -1,0 +1,83 @@
+html, body{
+  background-color: #e3f0f1;
+  height: 100%;
+}
+.hapve{
+  width: 50%;
+  left: 25%;
+  right: 25%;
+}
+.container{
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  padding: 7px;
+  height: 90%;
+  background-color: #dad4d4c4;
+}
+.chatBox{
+  height: 75%;
+  background-color: #eaeaea;
+  border: 1px solid #887171;
+}
+.nameUser{
+  border-bottom: 1px solid #b5aaaaba;
+  background-color: #000000c7;
+  color: white;
+}
+.nameUser button{
+  border: none;
+  border-right: 1px solid white;
+  background-color: #333333;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+.nameUser button:hover{
+  background-color: black;
+}
+.nameUser img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.nameUser h5{
+  padding-left: 1cm;
+}
+.inputMsg{
+  padding: 5px;
+}
+.inputMsg input{
+  border-radius: 12px;
+  border: 1px solid white;
+  width: 100%;
+  left: 25%;
+  right: 25%;
+  background-color: #d8cfcf;
+  padding: 10px;
+}
+.inputMsg input:focus{
+  outline: none;
+}
+.inputMsg button{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: white;
+}
+.startConvo{
+  text-align: center;
+}
+@media only screen and (max-width: 729px){
+  .hapve{
+    width: 100%;
+    left: 0;
+  }
+  .container{
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 90%;
+  }
+}

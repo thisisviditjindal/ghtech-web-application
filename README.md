@@ -1,4 +1,5 @@
-# ghtech-web-application
+Link to website:- **https://thisisviditjindal.github.io/ghtech-web-application/**
+
 Q1.)Why did you decide on the framework choice you used as part of your solution?
 A1.) I was less on time that is why I was not able to use Angular or react as part of the project as I was not able to learn it. So I used jquery beacuse of the animations and Document Object Model(DOM) for javascript.
 

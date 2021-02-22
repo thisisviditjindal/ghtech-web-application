@@ -6,7 +6,7 @@ input[type=email], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
   background-color: #ffffffa3;
-  color: #e0dada;
+  color: #1f1fe3;
 }
 button{
   background-color: #101913bf;

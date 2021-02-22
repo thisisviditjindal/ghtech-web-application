@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>GHTech - Contacts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/master.css">
+  <link rel="stylesheet" href="styles/contacts.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style media="screen">
+  .headd{
+    padding-top: 20px;
+    position: absolute;
+    left: 50%;
+    color: #4e6e6a;
+  }
+  img{
+    border-radius: 50%;
+    width:3%;
+  }
+  .mainContact{
+    top: 10%;
+    left: 50%;
+    background-color: #bbb9b9;
+    padding: 20px;
+  }
+  .upContacts input{
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid #1319196e;
+    width: 80%;
+    background: #f1f1f1a1;
+    margin-bottom: 3px;
+    color: #1d3a36e3;
+    border-radius: 15px;
+  }
+  .upContacts input:focus{
+    outline: none;
+  }
+  a{
+    color: #0049b5;
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 729px){
+    .bg-content{
+      width: 80%;
+    }
+    .chip{
+      height: 50px;
+      width: 100%;
+      font-size:13px;
+      padding: 0 20px;
+    }
+  }
+  .contactsList{
+    height:250px;
+    overflow: auto;
+    border-top: 4px solid #153c359c;
+    background-color: #ffffff9c;
+    margin-top: 0.5cm;
+    padding-top: 2px;
+    padding-bottom: 3px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/master.js"></script>
+  <script src="scripts/contacts.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand navbar-light hapve">
+      <div class="container-fluid">
+        <a class=" navbar-brand" href="index.html"><span class="textt fontt">GHTech</span></a>
+        <form class="d-flex" action="login.html" method="post">
+          <button type="submit" class="btn btn-primary" id="login" disabled>Logged In!</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <div class="bg-image"></div>
+  <div class="bg-content">
+    <h3 style="text-align:left">Contacts</h3>
+    <hr>
+    <div class="upContacts">
+      <input type="text" placeholder="Search Contacts...">
+    </div>
+    <div class="contactsList">
+      <div class="chip" style="display:none">
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_m.png" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Charles Shane.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_w.jpg" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Isla Howard.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_m.png" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Thomas Crane.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_w.jpg" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Tatiana Mcdowell.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_m.png" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Odin Zamora.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_w.jpg" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Peter Trump.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_m.png" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Robert Kevin.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_w.jpg" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Alan Clinton.</a>
+      </div>
+      <div class="chip">
+        <img src="styles/assets/avatar_m.png" alt="Person" width="96" height="96">
+        <a href="chatroom.html">Kenn Mark.</a>
+      </div>
+    </div>
+  </div>
+  <footer id="foott">
+    <small>© Copyright 2021. Designed By Sukrit Goyal.</small>
+  </footer>
+</body>
+</html>

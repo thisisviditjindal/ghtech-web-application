@@ -1,5 +1,4 @@
 html, body{
-  background-color: #e3f0f1;
   height: 100%;
 }
 .hapve{
@@ -17,7 +16,7 @@ html, body{
 }
 .chatBox{
   height: 75%;
-  background-color: #eaeaea;
+  background-color: #f3f3f3;
   border: 1px solid #887171;
 }
 .nameUser{
@@ -58,6 +57,7 @@ html, body{
 }
 .inputMsg input:focus{
   outline: none;
+  background-color: #bdb6b6;
 }
 .inputMsg button{
   width: 100%;
@@ -80,4 +80,25 @@ html, body{
     right: 0;
     height: 90%;
   }
+}
+.chat{
+  background-color: #e2e2e2;
+  margin: 5px;
+  border-radius: 12px;
+  padding: 5px;
+  border: 2px solid grey;
+  color: #6d6d6d;
+}
+.chatScreen{
+  overflow: auto;
+  height:85%;
+  background-color: #b9b9b900;
+}
+.chat p{
+  text-align: right;
+  margin-bottom:0;
+}
+.chat small{
+  font-size: 15px;
+  color: #2522227a;
 }

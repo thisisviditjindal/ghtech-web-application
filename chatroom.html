@@ -39,26 +39,28 @@
         </div>
       </nav>
     </header>
-      <div class="container">
-        <div class="chatBox">
-            <form action="contacts.html">
-              <div class="nameUser">
-                <button type="submit" name="button"><img src="styles/assets/back.png" alt="Back"></button>
-                <div class="userDes" style="display:inline-block">
-                  <h5>UserName</h5>
-                </div>
-              </div>
-            </form>
-            <div class="startConvo"><small>Say hey to your new friends here!</small></div>
+     <div class="container">
+    <div class="chatBox">
+      <form action="contacts.html">
+        <div class="nameUser">
+          <button type="submit" name="button"><img src="C:\Users\HP\Desktop\ghtech\back.png" alt="Back"></button>
+          <div class="userDes" style="display:inline-block">
+            <h5>UserName</h5>
+          </div>
         </div>
-        <hr>
-        <div class="inputMsg">
-          <input type="text" placeholder="Send a message...">
-          <button type="button" name="button" class="btn btn-primary">Send</button>
-        </div>
+      </form>
+      <div class="chatScreen" id="chatScreen">
+        <div class="startConvo"><small><u>Say hey to your new friends here!</u></small></div>
       </div>
-      <footer id="foott">
-        <small>© Copyright 2021. Designed By Vidit Jindal.</small>
-      </footer>
-  </body>
+    </div>
+    <hr>
+    <div class="inputMsg">
+      <input type="text" placeholder="Send a message..." id="send">
+      <button type="button" name="button" class="btn btn-primary" onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <footer id="foott">
+    <small>© Copyright 2021. Designed By Sukrit Goyal.</small>
+  </footer>
+</body>
 </html>

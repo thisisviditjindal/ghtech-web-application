@@ -23,7 +23,6 @@ body, html {
   width: 60%;
   padding: 20px;
   text-align: center;
-  border-left: 10px solid #b9b9b9;
 }
 .chip {
   display: inline-block;

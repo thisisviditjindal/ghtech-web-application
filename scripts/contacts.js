@@ -15,7 +15,7 @@ $(document).ready(function() {
     search.keyup(function() {
       var chips = $(".chip")
       for(i=1;i<chips.length;i++){
-        text = chips[i].innerText || chips[i].textContent;
+        var text = chips[i].innerText || chips[i].textContent;
         if(text.toLowerCase().indexOf($(this).val().toLowerCase()) > -1){
           chips[i].style.filter = "blur(0px)";
           chips[i].style.display='';

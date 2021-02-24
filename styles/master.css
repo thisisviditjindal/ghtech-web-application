@@ -53,3 +53,12 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+.headd{
+      top: 10%;
+      padding-top: 20px;
+      position: absolute;
+      left: 50%;
+      color: #4e6e6a;
+      border-left: 5px solid #4e6e6a;
+      padding-left: 3%
+    }

@@ -12,5 +12,5 @@ Q3.)What would you do differently if you were given more time?
 
 A3.)I would have able to make data models and would be able to make this website using react framework. I would be able to make a backend for this project. 
 
-Note:- I have made a react application too, but due to its bad rendering and glictches, I submitted the submitted the website made from HTML, CSS and JavaScript.
+Note:- I have made a react application too, but due to its bad rendering and glitches, I submitted the website made from HTML, CSS and JavaScript.
 

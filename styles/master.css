@@ -29,7 +29,8 @@ html,body{
 #imgback{
   background-image: url("assets/gtechh.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  height: 100%;
+  background-position: center;
   background-size: cover;
 }
 :root .btn-primary,:root .btn-primary:active,:root .btn-primary:visited{

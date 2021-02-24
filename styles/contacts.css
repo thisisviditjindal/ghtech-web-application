@@ -46,10 +46,6 @@ body, html {
   width: 50px;
   border-radius: 50%;
 }
-img{
-    border-radius: 50%;
-    width:3%;
-  }
   .mainContact{
     top: 10%;
     left: 50%;

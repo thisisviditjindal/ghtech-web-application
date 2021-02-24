@@ -19,10 +19,3 @@ function sendMessage(){
         send.value = "";
       }
     }
-var input = document.getElementsByTagName("input")[0];
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    document.getElementsByTagName("button")[1].click();
-  }
-});
